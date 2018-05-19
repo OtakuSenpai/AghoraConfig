@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding = "utf-8"?>
+ <plugin>
+     <name>BasicOps</name>
+     <description>Some description here</description>
+     <MasterCommand>basic</MasterCommand>
+     <ChildCommands>
+         <ping>ping</ping>
+         <moo>moo</moo>
+         <remind>remind</remind>
+     </ChildCommands>
+     <channels> 
+         <channels name="llamas">yes</channels> 
+         <channels name="##">no</channels> 
+     </channels>
+     <masks> //list of masks not allowed
+         <nick>prefix</nick>
+      </masks>
+ </plugin>
+
