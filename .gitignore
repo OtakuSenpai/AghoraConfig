@@ -1,0 +1,7 @@
+out/
+build/kotlin-build/
+gradle/
+
+XmlTest.iml
+XmlTest.ipr
+XmlTest.iws
